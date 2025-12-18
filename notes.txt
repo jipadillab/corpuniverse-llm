@@ -1,1 +1,40 @@
+corporate-ai-university/
+│
+├── app.py
+├── config.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── data/
+│   ├── company_docs/            # uploaded docs stored here (optional)
+│   ├── outputs/
+│   │   ├── skills_database.csv  # generated output
+│   │   └── last_report.json
+│   └── mock_inputs/
+│       └── sample_company_profile.json
+│
+├── llm/
+│   └── groq_client.py
+│
+├── ocr/
+│   └── ocr_engine.py
+│
+├── rag/
+│   ├── ingest.py
+│   └── retriever.py
+│
+├── analysis/
+│   ├── learning_path.py
+│   ├── mentor_recommender.py
+│   └── roi_model.py
+│
+├── viz/
+│   ├── radar_skills.py
+│   ├── growth_plot.py
+│   ├── roi_plot.py
+│   └── network_graph.py
+│
+└── validation/
+    └── schema_validation.py
 
