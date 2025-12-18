@@ -1,0 +1,19 @@
+streamlit==1.37.1
+groq==0.11.0
+
+# RAG / Embeddings
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0.post1
+numpy==1.26.4
+
+# Document parsing
+pdfplumber==0.11.4
+python-docx==1.1.2
+
+# OCR (free)
+pytesseract==0.3.13
+Pillow==10.4.0
+
+# Visualization
+plotly==5.23.0
+networkx==3.3
